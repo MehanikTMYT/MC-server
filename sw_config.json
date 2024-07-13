@@ -1,0 +1,8 @@
+{
+  "javaExecutablePath": "java",
+  "additionalFlags": "-Xms3g -Xmx8g  -Dterminal.jline=false -Dterminal.ansi=true $( [[ ! -f unix_args.txt ]] && printf %s "-jar server.jar" || printf %s "@unix_args.txt" )",
+  "arguments": "--nogui",
+  "injectorFilename": "injector.jar",
+  "serverFilename": "sever.jar",
+  "apiUrl": "http://mehhost.ru:1370"
+}
