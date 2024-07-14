@@ -1,0 +1,132 @@
+{
+  "startedEpoch": 1720968131263,
+  "endedEpoch": 1720968138751,
+  "durationMs": 7487,
+  "heap": {
+    "allocationRateBytesPerSecond": 1.683713462857143E8,
+    "gcCount": 5,
+    "gcOverHeadPercent": 0.0729264,
+    "gcTotalDurationMs": 546
+  },
+  "cpuPercent": {
+    "jvm": {
+      "min": 0.0,
+      "average": 0.021103454487664357,
+      "max": 0.025641025975346565
+    },
+    "userJvm": {
+      "min": 0.0,
+      "average": 0.6163462315286908,
+      "max": 0.7487179636955261
+    },
+    "system": {
+      "min": 0.0,
+      "average": 0.7221723539488656,
+      "max": 0.8903061151504517
+    }
+  },
+  "network": {
+    "sent": {
+      "totalBytes": 0,
+      "count": 0,
+      "bytesPerSecond": 0.0,
+      "countPerSecond": 0.0,
+      "topContributors": []
+    },
+    "received": {
+      "totalBytes": 0,
+      "count": 0,
+      "bytesPerSecond": 0.0,
+      "countPerSecond": 0.0,
+      "topContributors": []
+    }
+  },
+  "fileIO": {
+    "write": {
+      "totalBytes": 23640,
+      "count": 96,
+      "bytesPerSecond": 3377.1428571428573,
+      "countPerSecond": 13.714285714285714,
+      "topContributors": [
+        {
+          "path": "logs/debug.log",
+          "totalBytes": 15335
+        },
+        {
+          "path": "logs/latest.log",
+          "totalBytes": 3270
+        },
+        {
+          "path": "server.properties",
+          "totalBytes": 1303
+        },
+        {
+          "path": "./world/session.lock",
+          "totalBytes": 3
+        }
+      ]
+    },
+    "read": {
+      "totalBytes": 10060453,
+      "count": 8845,
+      "bytesPerSecond": 1437207.5714285714,
+      "countPerSecond": 1263.5714285714287,
+      "topContributors": [
+        {
+          "path": "/workspaces/MC-server/libraries/net/minecraft/server/1.20.4-20231207.154220/server-1.20.4-20231207.154220-srg.jar",
+          "totalBytes": 4635493
+        },
+        {
+          "path": "/workspaces/MC-server/libraries/net/neoforged/neoforge/20.4.237/neoforge-20.4.237-server.jar",
+          "totalBytes": 2408415
+        },
+        {
+          "path": "/workspaces/MC-server/libraries/net/neoforged/neoforge/20.4.237/neoforge-20.4.237-universal.jar",
+          "totalBytes": 594926
+        },
+        {
+          "path": "/workspaces/MC-server/libraries/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar",
+          "totalBytes": 501048
+        },
+        {
+          "path": "/workspaces/MC-server/libraries/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar",
+          "totalBytes": 378330
+        },
+        {
+          "path": "/workspaces/MC-server/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar",
+          "totalBytes": 301636
+        },
+        {
+          "path": "/workspaces/MC-server/libraries/io/netty/netty-buffer/4.1.97.Final/netty-buffer-4.1.97.Final.jar",
+          "totalBytes": 218392
+        },
+        {
+          "path": "/workspaces/MC-server/libraries/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar",
+          "totalBytes": 203289
+        },
+        {
+          "path": "/usr/local/sdkman/candidates/java/21.0.3-ms/lib/security/cacerts",
+          "totalBytes": 170880
+        },
+        {
+          "path": "/workspaces/MC-server/libraries/net/minecraft/server/1.20.4-20231207.154220/server-1.20.4-20231207.154220-extra.jar",
+          "totalBytes": 164982
+        }
+      ]
+    }
+  },
+  "serverTick": {
+    "minMs": 0.0,
+    "averageMs": 0.0,
+    "maxMs": 0.0,
+    "p99": 0.0,
+    "p90": 0.0,
+    "p75": 0.0,
+    "p50": 0.0
+  },
+  "threadAllocation": [],
+  "chunkGen": {
+    "durationNanosTotal": 0.0,
+    "status": []
+  }
+}

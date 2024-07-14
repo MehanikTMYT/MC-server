@@ -1,0 +1,603 @@
+{
+  "startedEpoch": 1720970596171,
+  "endedEpoch": 1720970683300,
+  "durationMs": 87129,
+  "worldGenDurationMs": 14058,
+  "heap": {
+    "allocationRateBytesPerSecond": 8.306650335632184E7,
+    "gcCount": 17,
+    "gcOverHeadPercent": 0.020808227,
+    "gcTotalDurationMs": 1813
+  },
+  "cpuPercent": {
+    "jvm": {
+      "min": 0.0,
+      "average": 0.021197173403316113,
+      "max": 0.06632652878761292
+    },
+    "userJvm": {
+      "min": 0.0,
+      "average": 0.26167053573353344,
+      "max": 0.8639798760414124
+    },
+    "system": {
+      "min": 0.0,
+      "average": 0.3111928065502366,
+      "max": 0.969924807548523
+    }
+  },
+  "network": {
+    "sent": {
+      "totalBytes": 0,
+      "count": 0,
+      "bytesPerSecond": 0.0,
+      "countPerSecond": 0.0,
+      "topContributors": []
+    },
+    "received": {
+      "totalBytes": 0,
+      "count": 0,
+      "bytesPerSecond": 0.0,
+      "countPerSecond": 0.0,
+      "topContributors": []
+    }
+  },
+  "fileIO": {
+    "write": {
+      "totalBytes": 21840859,
+      "count": 4500,
+      "bytesPerSecond": 251044.3563218391,
+      "countPerSecond": 51.724137931034484,
+      "topContributors": [
+        {
+          "path": "./world/region/r.-1.-1.mca",
+          "totalBytes": 8363312
+        },
+        {
+          "path": "./world/region/r.-1.0.mca",
+          "totalBytes": 6690131
+        },
+        {
+          "path": "./world/region/r.0.-1.mca",
+          "totalBytes": 3524315
+        },
+        {
+          "path": "./world/region/r.0.0.mca",
+          "totalBytes": 2689547
+        },
+        {
+          "path": "./world/entities/r.-1.-1.mca",
+          "totalBytes": 204486
+        },
+        {
+          "path": "./world/entities/r.-1.0.mca",
+          "totalBytes": 196805
+        },
+        {
+          "path": "/tmp/libnetty_transport_native_epoll_x86_6417735698193050209906.so",
+          "totalBytes": 99406
+        },
+        {
+          "path": "logs/debug.log",
+          "totalBytes": 25234
+        },
+        {
+          "path": "./world/poi/r.-1.-1.mca",
+          "totalBytes": 16666
+        },
+        {
+          "path": "./world/entities/r.0.-1.mca",
+          "totalBytes": 8959
+        }
+      ]
+    },
+    "read": {
+      "totalBytes": 23712224,
+      "count": 24768,
+      "bytesPerSecond": 272554.2988505747,
+      "countPerSecond": 284.6896551724138,
+      "topContributors": [
+        {
+          "path": "/workspaces/MC-server/libraries/net/minecraft/server/1.20.4-20231207.154220/server-1.20.4-20231207.154220-srg.jar",
+          "totalBytes": 6114226
+        },
+        {
+          "path": "./world/region/r.-1.-1.mca",
+          "totalBytes": 4449258
+        },
+        {
+          "path": "./world/region/r.-1.0.mca",
+          "totalBytes": 2986022
+        },
+        {
+          "path": "/workspaces/MC-server/libraries/net/neoforged/neoforge/20.4.237/neoforge-20.4.237-server.jar",
+          "totalBytes": 2960846
+        },
+        {
+          "path": "/workspaces/MC-server/libraries/net/minecraft/server/1.20.4-20231207.154220/server-1.20.4-20231207.154220-extra.jar",
+          "totalBytes": 1387580
+        },
+        {
+          "path": "/workspaces/MC-server/libraries/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar",
+          "totalBytes": 1037315
+        },
+        {
+          "path": "/workspaces/MC-server/libraries/net/neoforged/neoforge/20.4.237/neoforge-20.4.237-universal.jar",
+          "totalBytes": 923771
+        },
+        {
+          "path": "./world/region/r.0.-1.mca",
+          "totalBytes": 761856
+        },
+        {
+          "path": "./world/region/r.0.0.mca",
+          "totalBytes": 436404
+        },
+        {
+          "path": "/workspaces/MC-server/libraries/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar",
+          "totalBytes": 422665
+        }
+      ]
+    }
+  },
+  "serverTick": {
+    "minMs": 0.0,
+    "averageMs": 1.6251283837209303,
+    "maxMs": 41.489708,
+    "p99": 33.5767945,
+    "p90": 2.641542,
+    "p75": 0.48002924999999996,
+    "p50": 0.398678
+  },
+  "threadAllocation": [
+    {
+      "thread": "C1 CompilerThread0",
+      "bytesPerSecond": 139.6
+    },
+    {
+      "thread": "C2 CompilerThread0",
+      "bytesPerSecond": 8.7
+    },
+    {
+      "thread": "C2 CompilerThread1",
+      "bytesPerSecond": -2.0
+    },
+    {
+      "thread": "Common-Cleaner",
+      "bytesPerSecond": 6.0
+    },
+    {
+      "thread": "DestroyJavaVM",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "FileSystemWatchService",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Finalizer",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "ForkJoinPool.commonPool-worker-1",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "ForkJoinPool.commonPool-worker-2",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "ForkJoinPool.commonPool-worker-3",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "IO-Worker-1",
+      "bytesPerSecond": 3645.818181818182
+    },
+    {
+      "thread": "IO-Worker-2",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "IO-Worker-3",
+      "bytesPerSecond": 22116.571428571428
+    },
+    {
+      "thread": "IO-Worker-4",
+      "bytesPerSecond": 326353.3714285714
+    },
+    {
+      "thread": "IO-Worker-5",
+      "bytesPerSecond": 305120.5714285714
+    },
+    {
+      "thread": "IO-Worker-6",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "JFR Periodic Tasks",
+      "bytesPerSecond": 180.2
+    },
+    {
+      "thread": "JFR Recorder Thread",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "JNA Cleaner",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Keep-Alive-Timer",
+      "bytesPerSecond": 140.26666666666668
+    },
+    {
+      "thread": "LanServerPinger #1",
+      "bytesPerSecond": 250.66666666666666
+    },
+    {
+      "thread": "Monitor Deflation Thread",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "NanoHttpd Main Listener",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Netty Epoll Server IO #0",
+      "bytesPerSecond": 523.84
+    },
+    {
+      "thread": "Notification Thread",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Reference Handler",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Server Watchdog",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Server console handler",
+      "bytesPerSecond": 4424.533333333334
+    },
+    {
+      "thread": "Server thread",
+      "bytesPerSecond": 2.9276571733333334E7
+    },
+    {
+      "thread": "Service Thread",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Signal Dispatcher",
+      "bytesPerSecond": 20.1
+    },
+    {
+      "thread": "Thread-4",
+      "bytesPerSecond": 888775.2533333333
+    },
+    {
+      "thread": "Timer hack thread",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Worker-Main-1",
+      "bytesPerSecond": 1.2809963733333332E7
+    },
+    {
+      "thread": "Worker-Main-2",
+      "bytesPerSecond": 1.23503936E7
+    },
+    {
+      "thread": "Worker-Main-3",
+      "bytesPerSecond": 1.2331308053333333E7
+    },
+    {
+      "thread": "Yggdrasil Key Fetcher",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "modloading-worker-0",
+      "bytesPerSecond": -1450.3466666666666
+    },
+    {
+      "thread": "process reaper",
+      "bytesPerSecond": 28.0
+    }
+  ],
+  "chunkGen": {
+    "durationNanosTotal": 2.0632043108E10,
+    "status": [
+      {
+        "state": "minecraft:noise",
+        "count": 200,
+        "durationNanosTotal": 11430169008,
+        "durationNanosAvg": 57150845,
+        "durationNanosPercentiles": {
+          "p99": 1.4095738411E8,
+          "p90": 8.33336582E7,
+          "p75": 6.1512539E7,
+          "p50": 5.265126E7
+        },
+        "fastest": {
+          "durationNanos": 22996414,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": 3,
+          "chunkPosZ": 3,
+          "worldPosX": 48,
+          "worldPosZ": 16
+        },
+        "slowest": {
+          "durationNanos": 236228259,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": -21,
+          "chunkPosZ": -21,
+          "worldPosX": -336,
+          "worldPosZ": -48
+        },
+        "secondSlowest": {
+          "durationNanos": 234858598,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": -21,
+          "chunkPosZ": -21,
+          "worldPosX": -336,
+          "worldPosZ": -32
+        }
+      },
+      {
+        "state": "minecraft:biomes",
+        "count": 312,
+        "durationNanosTotal": 3468985275,
+        "durationNanosAvg": 11118542,
+        "durationNanosPercentiles": {
+          "p99": 3.765359611E7,
+          "p90": 1.74867616E7,
+          "p75": 1.239218975E7,
+          "p50": 8701222.0
+        },
+        "fastest": {
+          "durationNanos": 3621608,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": -20,
+          "chunkPosZ": -20,
+          "worldPosX": -320,
+          "worldPosZ": -240
+        },
+        "slowest": {
+          "durationNanos": 198764327,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": -21,
+          "chunkPosZ": -21,
+          "worldPosX": -336,
+          "worldPosZ": -48
+        },
+        "secondSlowest": {
+          "durationNanos": 45211603,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": -7,
+          "chunkPosZ": -7,
+          "worldPosX": -112,
+          "worldPosZ": -240
+        }
+      },
+      {
+        "state": "minecraft:surface",
+        "count": 200,
+        "durationNanosTotal": 2101080453,
+        "durationNanosAvg": 10505402,
+        "durationNanosPercentiles": {
+          "p99": 3.467391919E7,
+          "p90": 1.46614705E7,
+          "p75": 1.060879925E7,
+          "p50": 8669568.5
+        },
+        "fastest": {
+          "durationNanos": 5160495,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": -22,
+          "chunkPosZ": -22,
+          "worldPosX": -352,
+          "worldPosZ": 160
+        },
+        "slowest": {
+          "durationNanos": 120567191,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": -21,
+          "chunkPosZ": -21,
+          "worldPosX": -336,
+          "worldPosZ": -16
+        },
+        "secondSlowest": {
+          "durationNanos": 42485929,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": -21,
+          "chunkPosZ": -21,
+          "worldPosX": -336,
+          "worldPosZ": -48
+        }
+      },
+      {
+        "state": "minecraft:structure_starts",
+        "count": 1496,
+        "durationNanosTotal": 1527485928,
+        "durationNanosAvg": 1021046,
+        "durationNanosPercentiles": {
+          "p99": 1.69196405E7,
+          "p90": 65311.5,
+          "p75": 38386.25,
+          "p50": 21851.0
+        },
+        "fastest": {
+          "durationNanos": 4317,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": -17,
+          "chunkPosZ": -17,
+          "worldPosX": -272,
+          "worldPosZ": -384
+        },
+        "slowest": {
+          "durationNanos": 495310448,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": -11,
+          "chunkPosZ": -11,
+          "worldPosX": -176,
+          "worldPosZ": -240
+        },
+        "secondSlowest": {
+          "durationNanos": 149251238,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": 9,
+          "chunkPosZ": 9,
+          "worldPosX": 144,
+          "worldPosZ": 96
+        }
+      },
+      {
+        "state": "minecraft:features",
+        "count": 96,
+        "durationNanosTotal": 1023479701,
+        "durationNanosAvg": 10661246,
+        "durationNanosPercentiles": {
+          "p99": 5.16787598E7,
+          "p90": 1.78105335E7,
+          "p75": 1.025512975E7,
+          "p50": 7086055.0
+        },
+        "fastest": {
+          "durationNanos": 2606256,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": 3,
+          "chunkPosZ": 3,
+          "worldPosX": 48,
+          "worldPosZ": 96
+        },
+        "slowest": {
+          "durationNanos": 122120743,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": -13,
+          "chunkPosZ": -13,
+          "worldPosX": -208,
+          "worldPosZ": 144
+        },
+        "secondSlowest": {
+          "durationNanos": 47971287,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": -12,
+          "chunkPosZ": -12,
+          "worldPosX": -192,
+          "worldPosZ": 144
+        }
+      },
+      {
+        "state": "minecraft:initialize_light",
+        "count": 96,
+        "durationNanosTotal": 608970196,
+        "durationNanosAvg": 6343439,
+        "durationNanosPercentiles": {
+          "p99": 7.321711825E7,
+          "p90": 9345849.5,
+          "p75": 5373616.0,
+          "p50": 2822295.5
+        },
+        "fastest": {
+          "durationNanos": 196381,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": 3,
+          "chunkPosZ": 3,
+          "worldPosX": 48,
+          "worldPosZ": -128
+        },
+        "slowest": {
+          "durationNanos": 96619993,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": 0,
+          "chunkPosZ": 0,
+          "worldPosX": 0,
+          "worldPosZ": 144
+        },
+        "secondSlowest": {
+          "durationNanos": 71985388,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": -21,
+          "chunkPosZ": -21,
+          "worldPosX": -336,
+          "worldPosZ": -80
+        }
+      },
+      {
+        "state": "minecraft:carvers",
+        "count": 200,
+        "durationNanosTotal": 416352994,
+        "durationNanosAvg": 2081764,
+        "durationNanosPercentiles": {
+          "p99": 1.082303616E7,
+          "p90": 4051113.0,
+          "p75": 2207382.5,
+          "p50": 1264991.5
+        },
+        "fastest": {
+          "durationNanos": 358989,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": 3,
+          "chunkPosZ": 3,
+          "worldPosX": 48,
+          "worldPosZ": -112
+        },
+        "slowest": {
+          "durationNanos": 37634170,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": -21,
+          "chunkPosZ": -21,
+          "worldPosX": -336,
+          "worldPosZ": -16
+        },
+        "secondSlowest": {
+          "durationNanos": 17362299,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": -14,
+          "chunkPosZ": -14,
+          "worldPosX": -224,
+          "worldPosZ": -240
+        }
+      },
+      {
+        "state": "minecraft:structure_references",
+        "count": 312,
+        "durationNanosTotal": 55519553,
+        "durationNanosAvg": 177947,
+        "durationNanosPercentiles": {
+          "p99": 1088109.68,
+          "p90": 262909.4,
+          "p75": 152862.25,
+          "p50": 96815.5
+        },
+        "fastest": {
+          "durationNanos": 22622,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": 4,
+          "chunkPosZ": 4,
+          "worldPosX": 64,
+          "worldPosZ": -240
+        },
+        "slowest": {
+          "durationNanos": 8674503,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": -21,
+          "chunkPosZ": -21,
+          "worldPosX": -336,
+          "worldPosZ": -48
+        },
+        "secondSlowest": {
+          "durationNanos": 3472475,
+          "level": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+          "chunkPosX": -21,
+          "chunkPosZ": -21,
+          "worldPosX": -336,
+          "worldPosZ": -192
+        }
+      }
+    ]
+  }
+}

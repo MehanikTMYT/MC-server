@@ -1,0 +1,2 @@
+ngrok config add-authtoken 2bU2YsxRDjBHeHFCPr2LBBGJ30A_jpNRZ9vQimiZEmUXXN5h
+ngrok tcp 25565

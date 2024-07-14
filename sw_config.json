@@ -1,0 +1,8 @@
+{
+  "javaExecutablePath": "java",
+  "additionalFlags": "@unix_args.txt",
+  "arguments": "--nogui",
+  "injectorFilename": "injector.jar",
+  "serverFilename": "sever.jar",
+  "apiUrl": "http://mehhost.ru:1370"
+}
