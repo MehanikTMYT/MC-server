@@ -4,7 +4,7 @@
 tmux_output=$(tmux ls 2>&1)
 
 # Compare output
-if [[ "$tmux_output" == "no server running on /tmp/tmux-1000/default" ]]; then
+if [ "$tmux_output" = "no server running on /tmp/tmux-1000/default" ]; then
   # Start a new session if no server is running
   tmux new-session -t MC-server
 else
