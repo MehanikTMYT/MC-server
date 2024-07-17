@@ -1,8 +1,13 @@
-curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null
-echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.github.io/ppa/data ./" | sudo tee /etc/apt/sources.list.d/playit-cloud.list
-sudo apt update
-sudo apt install -y playit
+#!/bin/bash
 
-wget https://github.com/AuroraTeam/ServerWrapper/releases/download/v1.1.0/sw_linux
-chmod +x *
-./sw_linux
+# Check if tmux server is running
+tmux_output=$(tmux ls 2>&1)
+
+# Compare output
+if [[ "$tmux_output" == "no server running on /tmp/tmux-1000/default" ]]; then
+  # Start a new session if no server is running
+  tmux new-session -t MC-server
+else
+  # Attach to the existing session if server is running
+  tmux attach -t MC-server
+fi
