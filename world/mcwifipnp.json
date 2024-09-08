@@ -1,0 +1,15 @@
+{
+  "port": 61213,
+  "maxPlayers": 8,
+  "GameMode": "survival",
+  "motd": "Мир в локальной сети",
+  "AllPlayersCheats": true,
+  "Whitelist": false,
+  "UseUPnP": true,
+  "AllowCommands": true,
+  "OnlineMode": false,
+  "EnableUUIDFixer": false,
+  "ForceOfflinePlayers": [],
+  "PvP": false,
+  "CopyToClipboard": false
+}
